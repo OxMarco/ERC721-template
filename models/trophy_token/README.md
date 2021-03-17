@@ -1,0 +1,3 @@
+# Trophy Token
+A NFT that gives the owner a choice: the more they pay, the better trophy they get.
+Be sure not to be too cheap otherwise you'll get a pile of...
