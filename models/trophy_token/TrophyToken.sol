@@ -17,19 +17,19 @@ contract TrophyToken is TradeableERC721Token {
     function () external payable {
         require(current == Trophy.BLANK, "Trophy claimed already");
         uint256 donation = msg.value;
-        if(donation >= 1000000000000000000) // >= 1 ETH
+        if(donation >= 1 ether)
         {
             current = Trophy.GOLD;
         } 
-        else if(donation >= 100000000000000000) // >= 0.1 ETH
+        else if(donation >= 0.1 ether)
         {
             current = Trophy.SILVER;
         }
-        else if(donation >= 10000000000000000) // >= 0.01 ETH
+        else if(donation >= 0.01 ether)
         {
             current = Trophy.BRONZE;
         }
-        else // lower than 0.01 ETH
+        else
         {
             current = Trophy.POO;
         }

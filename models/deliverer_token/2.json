@@ -1,0 +1,17 @@
+{
+    "description": "Get a song for each new sale", 
+    "external_url": "https://ethereum.org", 
+    "image": "ipfs://Qmc8o5VuyFx8JSqbZRXnUuagP4HELvcHy6C94nWktBdw1w", 
+    "name": "DelivererToken",
+    "animation_url": "ipfs://QmUuPxSh4hBifEHKQsDTBWhRP7QTQmmMc3nc8Y7AM1mjey",
+    "attributes": [
+        {
+            "trait_type": "song n.1", 
+            "value": "ipfs://QmUuPxSh4hBifEHKQsDTBWhRP7QTQmmMc3nc8Y7AM1mjey"
+        },
+        {
+            "trait_type": "song n.2", 
+            "value": "ipfs://QmYv6ncdF55yyjzAEau5NaYypLBFdAx3rmYDV69DL7SHjZ"
+        }
+    ]
+}
